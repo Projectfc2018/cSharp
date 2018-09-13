@@ -28,19 +28,19 @@ namespace Gestao_de_Parque_Computacional.Forms
 
             if(check_ns.Checked == true)
             {
-                //relatório que pesquisa por numero de série
+                //relatório que pesquisa por numero de série retorna uma unica linha
             }
             if(check_inativos.Checked == true)
             {
-                //relatório que pesquisa todos os inativos
+                //relatório que pesquisa todos os inativos retorna uma lista
             }
             if(check_fornecedor.Checked == true)
             {
-                //relatório que pesquisa por fornecedor
+                //relatório que pesquisa por fornecedor retorna uma linha
             }
             if(check_config.Checked == true)
             {
-                //relatório que pesquisa por configuração
+                //relatório que pesquisa por configuração retirna uma lista
                 WsComputador.Computador obj1 = new WsComputador.Computador();
                 WsComputador.Computador obj2 = new WsComputador.Computador();
                 WsComputador.WsComputadorClient computadorDAO = new WsComputador.WsComputadorClient();
